@@ -1,0 +1,45 @@
+#canchaTennis {
+  background-color: #0E7F2B;
+	width: 600px;
+	height: 300px;
+	margin: 0 auto;
+	position: relative;
+  border: 2px solid white;
+	display: none;
+}
+
+.rectanguloMayor {
+  width: 600px;
+	height: 200px;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: -2px;
+  border: 2px solid white;
+}
+
+.rectanguloCentro {
+  width: 350px;
+	height: 200px;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 125px;
+  border: 2px solid white;
+}
+
+.lineaVertical {
+  width: 0px;
+  height: 200px;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 303px;
+  border: 1px solid white;
+}
+
+.lineaHorizontal {
+  width: 350px;
+  height: 0px;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 125px;
+  border: 1px solid white;
+}

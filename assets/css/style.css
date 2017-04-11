@@ -1,3 +1,4 @@
+/*CANCHA FOOTBALL*/
 *{
 	margin: 0px;
 }
@@ -8,18 +9,24 @@ body {
 }
 
 header {
-	background-color: #A9ADC0;
+	background-color: #E3001F;
 	height: 60px;
 	padding-top: 10px;
 	padding-bottom: 0px;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 }
 
 h1 {
-	font-family: Tahoma;
+	font-family: 'Rammetto One', cursive;
 	font-size: 2em;
 	color: #FFFFFF;
 	text-align: center;
+}
+
+nav{
+	width: 100%;
+	background-color: #5DADE2;
+
 }
 
 #botonesContenedor {
@@ -30,113 +37,11 @@ h1 {
 button {
 	background-color: #5DADE2;
 	border: none;
-    color: white;
-    padding: 7px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+  color: white;
+  padding: 7px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+	font-family: font-family: 'Muli', sans-serif;
 }
-
-#canchaFoot {
-	background-color: #46C125;
-	width: 600px;
-	height: 300px;
-	margin: 0 auto;
-	position: relative;
-	display: none;
-}
-
-
-
-.porteriaIzq {
-    width: 100px; 
-    height: 200px; 
-    border: 2px solid #FFFFFF;
-    position: absolute;
-    margin-top: 50px; 
-}
-
-.porteriaDer{
-	width: 100px; 
-    height: 200px; 
-    border: 2px solid #FFFFFF;
-    position: absolute;
-    margin-top: 50px; 
-    margin-left: 495px;
-}
-
-.lineaCentral { 
-    height: 300px; 
-    border: 1px solid #FFFFFF;
-    position: absolute;
-    margin-top: 0px; 
-    margin-left: 300px;
-}
-
-.circulo {
-     width: 175px;
-     height: 175px;
-     position: absolute;
-     -moz-border-radius: 50%;
-     -webkit-border-radius: 50%;
-     border-radius: 50%;
-     border: 2px solid #FFFFFF;
-     margin-left: 215px;
-     margin-top: 60px;
-}
-
-.semi-circulo {
-     width: 50px; 
-     height: 100px; 
-     position: absolute;
-     border: 2px solid #FFFFFF; 
-     -moz-border-radius: 0 100px 100px 0;
-     -webkit-border-radius: 0 100px 100px 0;
-     border-radius: 0 100px 100px 0;
-     margin-top: 100px;
-     margin-left: 102px;
-}
-
-.semi-circuloDer {
-    margin-left: 443px;
-    transform: rotate(180deg);
- }
-
-#canchaBasket {
-	background-color: #E7820F;
-	width: 600px;
-	height: 300px;
-	margin: 0 auto;
-	position: relative;
-	/*display: none;*/
-}
-
-.circuloBasket {
-	width: 80px;
-    height: 80px;
-    position: absolute;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    border: 2px solid #FFFFFF;
-    margin-left: 260px;
-    margin-top: 110px;
-}
-
-.circuloBasketIzq {
-	margin-left: 60px;
-}
-
-.circuloBasketDer {
-	margin-left: 450px;
-}
-
-.semi-circuloBasket {
-
-}
-
-
-
-
-
