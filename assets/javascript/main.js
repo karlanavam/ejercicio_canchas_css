@@ -1,3 +1,8 @@
+//VariablesGlobales
+	var canchaFoot = document.getElementById('canchaFoot');
+	var canchaBasket = document.getElementById('canchaBasket');
+	var canchaTennis = document.getElementById('canchaTennis');
+
  //Botones cancha football
 var botonCanchaFoot = document.getElementById("botonFootball");
 botonCanchaFoot.addEventListener('click', mostrarCanchaFoot);
@@ -15,30 +20,37 @@ botonCanchaTennis.addEventListener('dblclick', ocultarCanchaTennis);
 
  //Funciones cancha football
 function mostrarCanchaFoot () {
-	var canchaFoot = document.getElementById('canchaFoot');
 	canchaFoot.style.display = "block";
+	canchaBasket.style.display = "none";
+	canchaTennis.style.display = "none";
 }
+
 function ocultarCanchaFoot () {
-	var canchaFoot = document.getElementById('canchaFoot');
 	canchaFoot.style.display = "none";
+	canchaBasket.style.display = "none";
+	canchaTennis.style.display = "none";
 }
 
  //Funciones cancha basketball
 function mostrarCanchaBasket () {
-	var canchaBasket = document.getElementById('canchaBasket');
 	canchaBasket.style.display = "block";
+	canchaFoot.style.display = "none";
+	canchaTennis.style.display = "none";
 }
 function ocultarCanchaBasket () {
-	var canchaBasket = document.getElementById('canchaBasket');
 	canchaBasket.style.display = "none";
+	canchaFoot.style.display = "none";
+	canchaTennis.style.display = "none";
 }
 
 //Funciones cancha Tennis
 function mostrarCanchaTennis () {
- var canchaTennis = document.getElementById('canchaTennis');
  canchaTennis.style.display = "block";
+ canchaBasket.style.display = "none";
+ canchaFoot.style.display = "none";
 }
 function ocultarCanchaTennis () {
- var canchaTennis = document.getElementById('canchaTennis');
  canchaTennis.style.display = "none";
+ canchaBasket.style.display = "none";
+ canchaFoot.style.display = "none";
 }

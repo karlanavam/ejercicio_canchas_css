@@ -43,5 +43,11 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 18px;
-	font-family: font-family: 'Muli', sans-serif;
+	font-family: 'Muli', sans-serif;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+button:hover {
+    background-color: #8CB9FA;
 }
